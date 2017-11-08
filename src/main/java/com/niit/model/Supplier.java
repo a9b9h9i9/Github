@@ -14,36 +14,36 @@ import org.springframework.stereotype.Component;
 public class Supplier {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private int SupplierId;
+	private int supplierId;
 	
-	public String SupplierName;
-	public String SupplierAddress;
-	public Long SupplierContact;
-	
-	
+	public String supplierName;
+	public String supplierAddress;
+	public Long supplierContact;
 	public int getSupplierId() {
-		return SupplierId;
+		return supplierId;
 	}
 	public void setSupplierId(int supplierId) {
-		SupplierId = supplierId;
+		this.supplierId = supplierId;
 	}
 	public String getSupplierName() {
-		return SupplierName;
+		return supplierName;
 	}
 	public void setSupplierName(String supplierName) {
-		SupplierName = supplierName;
+		this.supplierName = supplierName;
 	}
 	public String getSupplierAddress() {
-		return SupplierAddress;
+		return supplierAddress;
 	}
 	public void setSupplierAddress(String supplierAddress) {
-		SupplierAddress = supplierAddress;
+		this.supplierAddress = supplierAddress;
 	}
 	public Long getSupplierContact() {
-		return SupplierContact;
+		return supplierContact;
 	}
 	public void setSupplierContact(Long supplierContact) {
-		SupplierContact = supplierContact;
+		this.supplierContact = supplierContact;
 	}
+	
+	
 
 }

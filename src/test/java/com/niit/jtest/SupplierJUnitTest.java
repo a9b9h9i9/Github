@@ -32,14 +32,14 @@ public class SupplierJUnitTest {
 		supplier =(Supplier)context.getBean("supplier");
 		supplierDAO=(SupplierDAO)context.getBean("supplierDAO");
 	}
-	@Ignore
+	//@Ignore
 	@Test
 	public void add_Supply_success()
 	{
-		supplier.setSupplierId(2);
-		supplier.setSupplierName("Firm3");
-		supplier.setSupplierAddress("Noida");
-		supplier.setSupplierContact(8890199988L);
+		supplier.setSupplierId(3);
+		supplier.setSupplierName("Firm35");
+		supplier.setSupplierAddress("New Delhi");
+		supplier.setSupplierContact(8890199348L);
 		assertEquals(true, supplierDAO.addSupplier(supplier));
 	}
 	@Ignore

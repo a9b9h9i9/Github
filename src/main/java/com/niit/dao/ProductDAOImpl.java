@@ -54,9 +54,9 @@ public class ProductDAOImpl implements ProductDAO {
 	}
 
 	
-	public Product getProductByID(int ProductId) {
+	public Product getProductByID(int productId) {
 		
-		return (Product)sessionFactory.getCurrentSession().get(Product.class, ProductId);
+		return (Product)sessionFactory.getCurrentSession().get(Product.class, productId);
 	}
 
 	

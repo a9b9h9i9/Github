@@ -53,8 +53,8 @@ public class SupplierDAOImpl implements SupplierDAO {
 	}
 
 	
-	public Supplier getSupplierById(int SupplierId) {
-		return (Supplier)sessionFactory.getCurrentSession().get(Supplier.class, SupplierId);
+	public Supplier getSupplierById(int supplierId) {
+		return (Supplier)sessionFactory.getCurrentSession().get(Supplier.class, supplierId);
 		
 	}
 

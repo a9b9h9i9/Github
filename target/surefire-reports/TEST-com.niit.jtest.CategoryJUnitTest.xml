@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.niit.jtest.CategoryJUnitTest" time="4.86" errors="0" skipped="4">
+<testsuite tests="5" failures="0" name="com.niit.jtest.CategoryJUnitTest" time="5.106" errors="0" skipped="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Abhishek\Desktop\New folder (3)\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7960711815713421139.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Abhishek\Desktop\New folder (3)\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf439365419402030683.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Abhishek\AppData\Local\GitHubDesktop\app-1.0.3\resources\app\git\cmd;A:\eclipse-jee-mars-1-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,72 +61,72 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="get_Category_by_id" time="1.528">
+  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="get_Category_by_id" time="1.628">
     <skipped/>
     <system-out>Session Factory Object created
 </system-out>
-    <system-err>Oct 11, 2017 10:25:37 AM org.springframework.context.annotation.AnnotationConfigApplicationContext prepareRefresh
-INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@326de728: startup date [Wed Oct 11 10:25:37 IST 2017]; root of context hierarchy
-Oct 11, 2017 10:25:37 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+    <system-err>Oct 23, 2017 1:18:51 PM org.springframework.context.annotation.AnnotationConfigApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@326de728: startup date [Mon Oct 23 13:18:51 IST 2017]; root of context hierarchy
+Oct 23, 2017 1:18:51 PM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
 INFO: Loaded JDBC driver: org.h2.Driver
-Oct 11, 2017 10:25:37 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager &lt;clinit&gt;
+Oct 23, 2017 1:18:51 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager &lt;clinit&gt;
 INFO: HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
-Oct 11, 2017 10:25:37 AM org.hibernate.Version logVersion
+Oct 23, 2017 1:18:51 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {4.3.5.Final}
-Oct 11, 2017 10:25:37 AM org.hibernate.cfg.Environment &lt;clinit&gt;
+Oct 23, 2017 1:18:51 PM org.hibernate.cfg.Environment &lt;clinit&gt;
 INFO: HHH000206: hibernate.properties not found
-Oct 11, 2017 10:25:37 AM org.hibernate.cfg.Environment buildBytecodeProvider
+Oct 23, 2017 1:18:51 PM org.hibernate.cfg.Environment buildBytecodeProvider
 INFO: HHH000021: Bytecode provider name : javassist
-Oct 11, 2017 10:25:38 AM org.hibernate.dialect.Dialect &lt;init&gt;
+Oct 23, 2017 1:18:51 PM org.hibernate.dialect.Dialect &lt;init&gt;
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-Oct 11, 2017 10:25:38 AM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+Oct 23, 2017 1:18:52 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
 INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
-Oct 11, 2017 10:25:38 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory &lt;init&gt;
 INFO: HHH000397: Using ASTQueryTranslatorFactory
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
 INFO: HHH000228: Running hbm2ddl schema update
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
 INFO: HHH000102: Fetching database metadata
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
 INFO: HHH000396: Updating schema
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000261: Table found: PROJECT1.PUBLIC.CATEGORY
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000037: Columns: [description, categoryname, type, categoryid]
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000108: Foreign keys: []
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000126: Indexes: [primary_key_3]
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000261: Table found: PROJECT1.PUBLIC.PRODUCT
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000037: Columns: [productweight, productid, productstock, description, productname, type, productprice]
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000108: Foreign keys: []
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000126: Indexes: [primary_key_1]
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000261: Table found: PROJECT1.PUBLIC.SUPPLIER
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000037: Columns: [suppliername, supplierid, suppliercontact, supplieraddress]
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000108: Foreign keys: []
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
 INFO: HHH000126: Indexes: [primary_key_c]
-Oct 11, 2017 10:25:38 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+Oct 23, 2017 1:18:52 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
 INFO: HHH000232: Schema update complete
-Oct 11, 2017 10:25:38 AM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
+Oct 23, 2017 1:18:52 PM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
 INFO: Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@10650953] of Hibernate SessionFactory for HibernateTransactionManager
 </system-err>
   </testcase>
-  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="get_all_users_success" time="1.528">
+  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="get_all_users_success" time="1.628">
     <skipped/>
   </testcase>
-  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="delete_user_success" time="1.528">
+  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="delete_user_success" time="1.628">
     <skipped/>
   </testcase>
-  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="add_category_success" time="0.138"/>
-  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="update_category_success" time="0.138">
+  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="add_category_success" time="0.111"/>
+  <testcase classname="com.niit.jtest.CategoryJUnitTest" name="update_category_success" time="0.111">
     <skipped/>
   </testcase>
 </testsuite>
